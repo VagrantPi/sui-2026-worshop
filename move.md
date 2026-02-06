@@ -311,7 +311,7 @@ public struct Score has store {
 
     並且因為是 Object 所以會存在 sui 區塊鏈上，還記得
 - store
-    可以存在鏈上，但需要依附在有 key 的 struct 裡面
+    可以存在鏈上，但需要依附在有 key 或 store 的 struct 裡面
 - copy
     ```move
     // B 複製一份並且 assign 給 A 變數，因此如果沒有 copy 能力時會噴錯
